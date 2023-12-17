@@ -866,7 +866,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                                     <i class="bi bi-geo-alt"></i>
                                     <h4>Lokasi:</h4>
                                     <p>
-                                        <?= $row_profil->alamat; ?>
+                                        Jl.H Juanda Sukaseri Kab.Karawang
                                     </p>
                                 </div>
 
