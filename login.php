@@ -4,10 +4,10 @@ include 'app/login_cek.php';
 // mengecek admin login atau tidak
 if (isset($_SESSION['username'])) {
 ?>
-    <script>
-        alert('Anda sedang aktif, tidak dapat mengakses halaman ini!');
-        window.location.href = 'dashboard';
-    </script>
+<script>
+alert('Anda sedang aktif, tidak dapat mengakses halaman ini!');
+window.location.href = 'dashboard';
+</script>
 <?php
     return false;
 }
@@ -20,7 +20,7 @@ if (isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login | SIMKBS</title>
+    <title>Login | TANDES</title>
     <link rel="shortcut icon" href="asset_user/img/logo-campur.png" type="image/x-icon">
 
     <!-- Font Icon -->
@@ -62,7 +62,7 @@ if (isset($_SESSION['username'])) {
                         </div>
                     </form>
                     <!-- <br><center><p>Repost by <a>Bayu Tutor</a></p></center> -->
-                    
+
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@
             <h1 class="text-light">
                 <a href="index.html">
                     <img src="<?= $base_url; ?>asset_user/img/cikampek.png" alt="logo">
-                    <small>DESA puyuh</small>
+                    <small>Desa Cikampek</small>
                 </a>
             </h1>
             <!-- Uncomment below if you prefer to use an image logo -->

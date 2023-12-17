@@ -1,15 +1,15 @@
 <footer class="main-footer">
-  <strong>Copyright &copy;
-    <script>
-      document.write(new Date().getFullYear());
-    </script>
-    <a href="<?= $base_url; ?>dashboard">Bayu Tutor</a>.
-  </strong>
-  All rights reserved. | <a href='' title='' target='_blank'>Pemerintah Desa Bayun Sari</a>
-  
-  <div class="float-right d-none d-sm-inline-block">
-    <b>Versi</b> 1.0
-  </div>
+    <strong>Copyright &copy;
+        <script>
+        document.write(new Date().getFullYear());
+        </script>
+        <a href="<?= $base_url; ?>dashboard">Bayu Tutor</a>.
+    </strong>
+    All rights reserved. | <a href='' title='' target='_blank'>Pemerintah Desa Cikampek</a>
+
+    <div class="float-right d-none d-sm-inline-block">
+        <b>Versi</b> 1.0
+    </div>
 </footer>
 
 </div>
@@ -29,67 +29,67 @@
 <!-- Select2 -->
 <script src="<?= $base_url; ?>plugins/select2/js/select2.full.min.js"></script>
 <script>
-  $("#example1").DataTable({
+$("#example1").DataTable({
     "responsive": true,
     "autoWidth": false,
-  });
-  $("#example2").DataTable({
+});
+$("#example2").DataTable({
     "responsive": true,
     "autoWidth": false,
-  });
-  $("#example3").DataTable({
+});
+$("#example3").DataTable({
     "responsive": true,
     "autoWidth": false,
-  });
-  $("#example4").DataTable({
+});
+$("#example4").DataTable({
     "responsive": true,
     "autoWidth": false,
-  });
+});
 
-  $(".example2").DataTable({
+$(".example2").DataTable({
     "responsive": true,
     "autoWidth": false,
-  });
-  $(".example3").DataTable({
+});
+$(".example3").DataTable({
     "responsive": true,
     "autoWidth": false,
-  });
+});
 
-  //Initialize Select2 Elements
-  $('.select2bs4').select2({
+//Initialize Select2 Elements
+$('.select2bs4').select2({
     theme: 'bootstrap4'
-  });
+});
 
-  if ($('input[name=kepem_tabungan]:checked').val() == "0") {
+if ($('input[name=kepem_tabungan]:checked').val() == "0") {
     $('.cekKepem').attr("Disabled", true);
-  } else if ($('input[name=kepem_tabungan]:checked').val() == "1") {
+} else if ($('input[name=kepem_tabungan]:checked').val() == "1") {
     $('.cekKepem').attr("Disabled", false);
-  }
+}
 
-  if ($('input[name=penerima_bantuan]:checked').val() == "0") {
+if ($('input[name=penerima_bantuan]:checked').val() == "0") {
     $('.ceks').attr("Disabled", true);
-  } else if ($('input[name=penerima_bantuan]:checked').val() == "1") {
+} else if ($('input[name=penerima_bantuan]:checked').val() == "1") {
     $('.ceks').attr("Disabled", false);
-  }
+}
 
-  $("input[name=kepem_tabungan]:radio").click(function() {
+$("input[name=kepem_tabungan]:radio").click(function() {
     if ($('input[name=kepem_tabungan]:checked').val() == "0") {
-      $('.cekKepem').attr("Disabled", true);
+        $('.cekKepem').attr("Disabled", true);
     } else if ($('input[name=kepem_tabungan]:checked').val() == "1") {
-      $('.cekKepem').attr("Disabled", false);
+        $('.cekKepem').attr("Disabled", false);
     }
-  });
-  $("input[name=penerima_bantuan]:radio").click(function() {
+});
+$("input[name=penerima_bantuan]:radio").click(function() {
     if ($('input[name=penerima_bantuan]:checked').val() == "0") {
-      $('.ceks').attr("Disabled", true);
+        $('.ceks').attr("Disabled", true);
     } else if ($('input[name=penerima_bantuan]:checked').val() == "1") {
-      $('.ceks').attr("Disabled", false);
+        $('.ceks').attr("Disabled", false);
     }
-  });
+});
 
-  $(".jkjk").change(function() {
+$(".jkjk").change(function() {
     if ($(this).val() == "3") {
-      const html = `
+        const html = `
         <div class="form-group" id="jkjkjk">
             <label>Ibu Hamil ?</label>
             <div style="margin-bottom:-9.5px;">
@@ -104,50 +104,50 @@
             </div>
         </div>
       `;
-      $(".formjkjk").append(html);
+        $(".formjkjk").append(html);
     } else {
-      $("#jkjkjk").remove();
+        $("#jkjkjk").remove();
     }
-  });
+});
 
-  $(".jkjk").change(function() {
+$(".jkjk").change(function() {
     if ($(this).val() == "3") {
-      $("#dataKonsumsi").hide();
-      $("#dataTabunganBantuan").hide();
+        $("#dataKonsumsi").hide();
+        $("#dataTabunganBantuan").hide();
     } else if ($(this).val() == "9") {
-      $("#dataKonsumsi").hide();
-      $("#dataTabunganBantuan").hide();
+        $("#dataKonsumsi").hide();
+        $("#dataTabunganBantuan").hide();
     } else if ($(this).val() == "7") {
-      $("#dataKonsumsi").hide();
-      $("#dataTabunganBantuan").hide();
+        $("#dataKonsumsi").hide();
+        $("#dataTabunganBantuan").hide();
     } else if ($(this).val() == "6") {
-      $("#dataKonsumsi").hide();
-      $("#dataTabunganBantuan").hide();
+        $("#dataKonsumsi").hide();
+        $("#dataTabunganBantuan").hide();
     } else if ($(this).val() == "4") {
-      $("#dataKonsumsi").hide();
-      $("#dataTabunganBantuan").hide();
+        $("#dataKonsumsi").hide();
+        $("#dataTabunganBantuan").hide();
     } else {
-      $("#dataKonsumsi").show();
-      $("#dataTabunganBantuan").show();
+        $("#dataKonsumsi").show();
+        $("#dataTabunganBantuan").show();
     }
-  });
+});
 
-  function fetch_select(val) {
+function fetch_select(val) {
     $.ajax({
-      type: 'post',
-      url: '<?= $base_url; ?>app/post/post_forFetch.php',
-      data: {
-        get_option: val
-      },
-      success: function(response) {
-        if (val == '') {
-          alert('Mohon pilih data dengan benar !');
-        } else {
-          $("#infoDataKepkel").html(response);
+        type: 'post',
+        url: '<?= $base_url; ?>app/post/post_forFetch.php',
+        data: {
+            get_option: val
+        },
+        success: function(response) {
+            if (val == '') {
+                alert('Mohon pilih data dengan benar !');
+            } else {
+                $("#infoDataKepkel").html(response);
+            }
         }
-      }
     });
-  }
+}
 </script>
 
 </body>
