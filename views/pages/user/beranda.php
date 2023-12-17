@@ -853,7 +853,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Hubungi</h2>
+                <h2>Kontak</h2>
                 <p>Hubungi kami untuk memulai</p>
             </div>
 
@@ -874,7 +874,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
                                     <i class="bi bi-envelope"></i>
                                     <h4>Email:</h4>
                                     <p>
-                                        <?= $row_profil->email; ?>
+                                        saefulazharr984@gmail.com
                                     </p>
                                 </div>
                             </div>
