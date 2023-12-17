@@ -853,7 +853,7 @@ $sql_s3 = $mysqli->query("SELECT * FROM tabel_kependudukan JOIN tabel_pendidikan
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Hubungi Kami</h2>
+                <h2>Hubungi</h2>
                 <p>Hubungi kami untuk memulai</p>
             </div>
 
