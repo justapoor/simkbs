@@ -1,8 +1,7 @@
  <!-- Main Sidebar Container -->
  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: #042165;">
    <a href="<?= $base_url; ?>dashboard" class="brand-link">
-     <img src="<?= $base_url; ?>dist/img/<?= $row_profil->logo_desa; ?>" alt="Logo" class="brand-image">
-     <span class="brand-text font-weight-light"><?= $row_profil->nama_desa; ?></span>
+     <span class="brand-text font-weight-light">DESA CIKAMPEK</span>
    </a>
    <!-- Sidebar -->
    <div class="sidebar">

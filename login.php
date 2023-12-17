@@ -44,7 +44,8 @@ if (isset($_SESSION['username'])) {
                         <img src="asset_user/img/logo-campur.png" alt="" width="20%">
                         <h4>
                             Sistem Informasi Manajemen <br>
-                            Kependudukan dan Bantuan Sosial
+                            Kependudukan dan Bantuan Sosial<br>
+                            DESA CIKAMPEK
                         </h4>
                     </div>
                     <form action="" method="POST" class="register-form" style="margin-top: 2rem;" id="login-form">

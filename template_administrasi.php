@@ -10,18 +10,18 @@
           </td>
           <td valign="bottom" align="center" width="300">
               <span>
-                <b>PEMERINTAH KABUPATEN KETAPANG<br>
-                    KECAMATAN SUNGAI LAUR<br>
+                <b>PEMERINTAH KABUPATEN KARAWANG<br>
+                    KECAMATAN CIKAMPEK<br>
                 </b>
               </span>
               <div style="font-size: larger;">
                 <span>
-                  <b>DESA BAYUN SARI</b><br>
+                  <b>DESA CIKAMPEK</b><br>
                 </span>
               </div>
               <span style="font-size:12px">
-                Alamat : Jalan Sawit Raya<br>
-                <i>Email : pemdes.bayunsari@gmail.com</i><br>
+                Alamat : Jl. Ir H. Juanda Sukaseuri<br>
+                <i>Email : saefulazharr984@gmail.com</i><br>
               </span>
           </td>
           <td valign="bottom" align="right" width="200">

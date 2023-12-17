@@ -5,8 +5,8 @@
         <div class="logo">
             <h1 class="text-light">
                 <a href="index.html">
-                    <img src="<?= $base_url; ?>asset_user/img/logo-putih.png" alt="logo">
-                    <small>DESA BAYUN SARI</small>
+                    <img src="<?= $base_url; ?>asset_user/img/cikampek.png" alt="logo">
+                    <small>DESA CIKAMPEK</small>
                 </a>
             </h1>
             <!-- Uncomment below if you prefer to use an image logo -->
@@ -25,7 +25,7 @@
                         <li><a href="#Pekerjaan">Pekerjaan</a></li>
                         <li><a href="#Kelompok">Kelompok Umur</a></li>
                         <li><a href="#Agama">Agama</a></li>
-                        <li><a href="#Dusun">Dusun</a></li>
+                        <li><a href="#Dusun">Desa</a></li>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>

@@ -15,7 +15,7 @@
             <h1 class="text-light">
                 <a href="beranda">
                     <img src="<?= $base_url; ?>asset_user/img/logo-putih.png" alt="logo">
-                    <small>DESA BAYUN SARI</small>
+                    <small>DESA CIKAMPEK</small>
                 </a>
             </h1>
             <!-- Uncomment below if you prefer to use an image logo -->
