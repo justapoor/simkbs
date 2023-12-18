@@ -3,10 +3,10 @@ session_start();
 // mengecek admin login atau tidak
 if (!isset($_SESSION['username'])) {
 ?>
-    <script>
-        alert('Anda harus login untuk mengakses halaman ini!');
-        window.location.href = 'login';
-    </script>
+<script>
+alert('Anda harus login untuk mengakses halaman ini!');
+window.location.href = 'login';
+</script>
 <?php
     return false;
 }
@@ -38,8 +38,6 @@ include 'views/layout/sidebar.php';
         include 'views/pages/input_data_kondisi.php';
     } else if (isset($_GET['views']) && $_GET['views'] == "edit_data_kondisi") {
         include 'views/pages/edit_data_kondisi.php';
-    } else if (isset($_GET['views']) && $_GET['views'] == "data_klasifikasi_kependudukan") {
-        include 'views/pages/data_klasifikasi_kependudukan.php';
     } else if (isset($_GET['views']) && $_GET['views'] == "data_klasifikasi_bantuan") {
         include 'views/pages/data_klasifikasi_bantuan.php';
     } else if (isset($_GET['views']) && $_GET['views'] == "detail_penduduk") {
